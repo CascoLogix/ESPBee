@@ -15,8 +15,8 @@
   (page USLetter)
   (title_block
     (title ESPBee)
-    (date 2016-12-25)
-    (rev 0.2)
+    (date 2017-05-29)
+    (rev 1.0)
     (company "Casco Logix, LLC")
   )
 
@@ -250,14 +250,14 @@
       (net 19 CTS_HEADER))
     (pad 11 thru_hole circle (at 0 -10) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask B.SilkS)
       (net 20 "Net-(P2-Pad11)"))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/HEADER_M_2.00MM_1R10P_ST_AU_PTH_2.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Headers/VRML/HEADER_M_2.00MM_1R10P_ST_AU_PTH_2.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Header:HEADER_XBEE_P1_P10_ALT3 locked (layer Back) (tedit 58A875E7) (tstamp 5838B5AB)
+  (module Header:HEADER_XBEE_P1_P10_ALT3 locked (layer Back) (tedit 592CC5B8) (tstamp 5838B5AB)
     (at 111.2 93.1 180)
     (path /5838AFB6)
     (fp_text reference P1 (at 9 10 180) (layer B.SilkS)
@@ -265,9 +265,6 @@
     )
     (fp_text value "XBEE HEADER" (at 0 -13 180) (layer B.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
-    )
-    (fp_text user "(DTE Perspective)" (at 0 12 180) (layer B.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user 3V3 (at 8.771 8.039 180) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.12)) (justify mirror))
@@ -322,7 +319,7 @@
       (net 9 TXD_HEADER))
     (pad 1 thru_hole circle (at 11 8) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask B.SilkS)
       (net 10 VDD))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/HEADER_M_2.00MM_1R10P_ST_AU_PTH_1.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Headers/VRML/HEADER_M_2.00MM_1R10P_ST_AU_PTH_1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -400,18 +397,18 @@
       (net 8 RXD_HEADER))
     (pad 22 smd oval (at 8 0) (size 2.4 1.1) (layers Front F.Paste F.Mask)
       (net 9 TXD_HEADER))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/ESP-12E.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/RF_Modules/VRML/ESP-12E.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Passive:0603 (layer Back) (tedit 58A872BA) (tstamp 583D03CA)
+  (module Passive:0603 (layer Back) (tedit 592CC65D) (tstamp 583D03CA)
     (at 109.541 92.046)
     (path /583D0411)
     (attr smd)
-    (fp_text reference C1 (at 2.159 0 90) (layer B.SilkS)
+    (fp_text reference C1 (at 2.413 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.524) (layer B.Fab)
@@ -425,18 +422,18 @@
       (net 10 VDD))
     (pad 2 smd rect (at 0.8 0) (size 0.95 1) (layers Back B.Paste B.Mask)
       (net 1 GND))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/C0603.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Capacitors/VRML/C0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Passive:0603 (layer Back) (tedit 58A872BE) (tstamp 583D03D0)
+  (module Passive:0603 (layer Back) (tedit 592CC662) (tstamp 583D03D0)
     (at 109.541 93.57)
     (path /583D040B)
     (attr smd)
-    (fp_text reference C2 (at 2.159 0 90) (layer B.SilkS)
+    (fp_text reference C2 (at 2.413 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 1uF (at 0 -1.524) (layer B.Fab)
@@ -450,18 +447,18 @@
       (net 10 VDD))
     (pad 2 smd rect (at 0.8 0) (size 0.95 1) (layers Back B.Paste B.Mask)
       (net 1 GND))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/C0603.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Capacitors/VRML/C0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Passive:1206 (layer Back) (tedit 58A871EB) (tstamp 583D03D6)
+  (module Passive:1206 (layer Back) (tedit 592CC67A) (tstamp 583D03D6)
     (at 109.414 86.204)
     (path /583D03E4)
     (attr smd)
-    (fp_text reference C3 (at 3.81 0 90) (layer B.SilkS)
+    (fp_text reference C3 (at 4.064 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 47uF (at 0 -2.54) (layer B.SilkS) hide
@@ -477,18 +474,18 @@
       (net 10 VDD))
     (pad 2 smd rect (at 1.651 0) (size 1.524 2.032) (layers Back B.Paste B.Mask)
       (net 1 GND))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/C1206.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Capacitors/VRML/C1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Passive:1206 (layer Back) (tedit 58A871FE) (tstamp 583D03DC)
+  (module Passive:1206 (layer Back) (tedit 592CC677) (tstamp 583D03DC)
     (at 109.414 89.506)
     (path /583D0305)
     (attr smd)
-    (fp_text reference C4 (at 3.81 0 270) (layer B.SilkS)
+    (fp_text reference C4 (at 4.064 0) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 47uF (at 0 -2.54) (layer B.SilkS) hide
@@ -504,7 +501,7 @@
       (net 10 VDD))
     (pad 2 smd rect (at 1.651 0) (size 1.524 2.032) (layers Back B.Paste B.Mask)
       (net 1 GND))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/C1206.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Capacitors/VRML/C1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1347,11 +1344,11 @@
       (xy 0.741916 1.439663) (xy 0.760322 1.437643)) (layer B.SilkS) (width 0.01))
   )
 
-  (module Passive:R0603 (layer Back) (tedit 58A872C3) (tstamp 58608415)
+  (module Passive:R0603 (layer Back) (tedit 592CC667) (tstamp 58608415)
     (at 109.541 95.094)
     (path /5855BD61)
     (attr smd)
-    (fp_text reference R1 (at 2.159 0 90) (layer B.SilkS)
+    (fp_text reference R1 (at 2.413 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 -1.524) (layer B.Fab)
@@ -1365,18 +1362,18 @@
       (net 10 VDD))
     (pad 2 smd rect (at 0.8 0) (size 0.95 1) (layers Back B.Paste B.Mask)
       (net 6 RESET))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/R0603.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Resistors/VRML/R0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Passive:R0603 (layer Back) (tedit 58A872C8) (tstamp 5860841B)
+  (module Passive:R0603 (layer Back) (tedit 592CC66B) (tstamp 5860841B)
     (at 109.541 96.618)
     (path /586057EE)
     (attr smd)
-    (fp_text reference R2 (at 2.159 0 90) (layer B.SilkS)
+    (fp_text reference R2 (at 2.413 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 -1.524) (layer B.Fab)
@@ -1390,7 +1387,7 @@
       (net 10 VDD))
     (pad 2 smd rect (at 0.8 0) (size 0.95 1) (layers Back B.Paste B.Mask)
       (net 33 /UPLOAD))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/R0603.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Resistors/VRML/R0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1415,18 +1412,18 @@
       (net 10 VDD))
     (pad 2 smd rect (at 0.8 0 90) (size 0.95 1) (layers Back B.Paste B.Mask)
       (net 34 "Net-(R3-Pad2)"))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/R0603.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Resistors/VRML/R0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module Passive:R0603 (layer Back) (tedit 58A872CF) (tstamp 58A86A2A)
+  (module Passive:R0603 (layer Back) (tedit 592CC670) (tstamp 58A86A2A)
     (at 109.541 98.142)
     (path /58A86D95)
     (attr smd)
-    (fp_text reference R4 (at 2.159 0 90) (layer B.SilkS)
+    (fp_text reference R4 (at 2.413 0 180) (layer B.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.127)) (justify mirror))
     )
     (fp_text value 10K (at 0 -1.524) (layer B.Fab)
@@ -1440,7 +1437,7 @@
       (net 10 VDD))
     (pad 2 smd rect (at 0.8 0) (size 0.95 1) (layers Back B.Paste B.Mask)
       (net 35 "Net-(R4-Pad2)"))
-    (model Z:/Engineering/Projects/XBee/ESP_XBee/Hardware/EDA/shapes3D/R0603.wrl
+    (model C:/Engineering/KiCAD_Libraries/3D/Discrete/Passive/Resistors/VRML/R0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1474,18 +1471,18 @@
     (arrow2a (pts (xy 99 108.999999) (xy 100.126504 109.58642)))
     (arrow2b (pts (xy 99 108.999999) (xy 100.126504 108.413578)))
   )
-  (gr_text "REV 0.2" (at 111 103.5) (layer F.SilkS)
+  (gr_text "REV 1.0" (at 111 103.5) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.127)))
   )
   (gr_line (start 99 105) (end 99 84) (angle 90) (layer Edge.Cuts) (width 0.127))
   (gr_line (start 123.4 105) (end 123.4 84) (angle 90) (layer Edge.Cuts) (width 0.127))
   (gr_line (start 99 105) (end 123.4 105) (angle 90) (layer Edge.Cuts) (width 0.127))
 
-  (segment (start 110.684 92.046) (end 113.097 94.459) (width 0.508) (layer Back) (net 1))
-  (segment (start 116.018 97.38) (end 118.438 99.8) (width 0.508) (layer Front) (net 1) (tstamp 583D0580))
-  (via (at 116.018 97.38) (size 0.762) (drill 0.508) (layers Front Back) (net 1))
+  (segment (start 110.341 93.57) (end 112.208 93.57) (width 0.508) (layer Back) (net 1))
   (segment (start 116.018 97.38) (end 113.097 94.459) (width 0.508) (layer Back) (net 1))
-  (segment (start 110.684 92.046) (end 110.341 92.046) (width 0.508) (layer Back) (net 1) (tstamp 58A87423))
+  (via (at 116.018 97.38) (size 0.762) (drill 0.508) (layers Front Back) (net 1))
+  (segment (start 116.018 97.38) (end 118.438 99.8) (width 0.508) (layer Front) (net 1) (tstamp 583D0580))
+  (segment (start 112.208 93.57) (end 113.097 94.459) (width 0.508) (layer Back) (net 1) (tstamp 592CC542))
   (segment (start 110.341 92.046) (end 110.341 91.119) (width 0.508) (layer Back) (net 1))
   (segment (start 110.341 91.119) (end 111.065 90.395) (width 0.508) (layer Back) (net 1) (tstamp 58A873ED))
   (segment (start 111.065 90.395) (end 111.065 89.506) (width 0.508) (layer Back) (net 1) (tstamp 58A873F4))

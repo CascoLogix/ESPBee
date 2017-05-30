@@ -1,4 +1,4 @@
-update=11/28/2016 10:20:44 PM
+update=5/29/2017 8:03:53 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -60,16 +60,6 @@ LibName24=C:/Engineering/KiCAD_Libraries/PCB/Switch
 LibName25=C:/Engineering/KiCAD_Libraries/PCB/Terminal_Block
 LibName26=C:/Engineering/KiCAD_Libraries/PCB/Test_Point
 LibName27=C:/Engineering/KiCAD_Libraries/PCB/Wire_to_Board
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=../Drawing/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [general]
 version=1
 [eeschema]
@@ -126,3 +116,13 @@ LibName47=C:/Engineering/KiCAD_Libraries/Schematic/TI_MSP430
 LibName48=C:/Engineering/KiCAD_Libraries/Schematic/CascoLogixLogo
 LibName49=C:/Engineering/KiCAD_Libraries/Schematic/Mounting_Hole
 LibName50=C:/Engineering/KiCAD_Libraries/Schematic/Transducer
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=../Drawing/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

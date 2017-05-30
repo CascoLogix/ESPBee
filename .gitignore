@@ -1,3 +1,5 @@
 Create_Project_Directory.cmd
 Hardware/EDA/Gerbers/OSH_Park_Script.bat
 Hardware/EDA/XBee_Standard_Pinout.PNG
+*.FCStd1
+Hardware/EDA/Gerbers/Archive/
