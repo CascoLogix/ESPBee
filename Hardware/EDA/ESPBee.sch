@@ -48,14 +48,15 @@ LIBS:TI_MSP430
 LIBS:CascoLogixLogo
 LIBS:Mounting_Hole
 LIBS:Transducer
+LIBS:ESPBee-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "ESPBee"
-Date "2017-07-30"
-Rev "1.0"
+Date "2018-02-16"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -162,10 +163,10 @@ F 3 "" H 3650 2050 50  0000 C CNN
 	1    3650 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 1450 0    40   Input ~ 0
+Text GLabel 4200 1450 0    40   Input ~ 0
 RST
 Wire Wire Line
-	4400 1450 4750 1450
+	4200 1450 4750 1450
 Text GLabel 6050 1550 2    40   Input ~ 0
 RXD
 Text GLabel 6050 1450 2    40   Output ~ 0
@@ -975,4 +976,32 @@ Connection ~ 4650 1650
 Text Label 6400 1950 2    40   ~ 0
 ~RECOVERY
 NoConn ~ 4800 4550
+$Comp
+L TEST TP1
+U 1 1 5A87D1DE
+P 4300 1350
+F 0 "TP1" H 4300 1550 40  0000 C BNN
+F 1 "TEST" H 4300 1600 40  0001 C CNN
+F 2 "Wire_to_Board:WIRE_PAD_22AWG" H 4300 1350 50  0001 C CNN
+F 3 "" H 4300 1350 50  0001 C CNN
+	1    4300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP2
+U 1 1 5A87D2A4
+P 6550 1750
+F 0 "TP2" H 6550 1950 40  0000 C BNN
+F 1 "TEST" H 6550 2000 50  0001 C CNN
+F 2 "Wire_to_Board:WIRE_PAD_22AWG" H 6550 1750 50  0001 C CNN
+F 3 "" H 6550 1750 50  0001 C CNN
+	1    6550 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1750 6550 1850
+Connection ~ 6550 1850
+Wire Wire Line
+	4300 1350 4300 1450
+Connection ~ 4300 1450
 $EndSCHEMATC

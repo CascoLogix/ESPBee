@@ -1,4 +1,4 @@
-update=7/30/2017 4:11:05 PM
+update=2/16/2018 10:56:56 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -119,7 +119,7 @@ LibName50=C:/Engineering/KiCAD_Libraries/Schematic/Transducer
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=../Drawing/
+PlotDirectoryName=PDF_Schematic/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
